@@ -21,10 +21,10 @@ libraryDependencies ++= {
     "com.typesafe.akka" %% "akka-contrib" % akkaVersion,
     "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
     "com.typesafe.akka" %% "akka-testkit" % akkaVersion % "test",
+    "org.scalatest" %% "scalatest" % "2.2.1" % "test",
+    "org.scodec" %% "scodec-core" % "1.8.3",
     "junit" % "junit" % "4.10",
-    "org.typelevel" % "scodec-core_2.11" % "1.6.0",
     "org.eclipse.paho" % "org.eclipse.paho.client.mqttv3" % "1.0.2",
-    "org.scalatest" % "scalatest_2.11" % "2.2.1" % "test",
     "ch.qos.logback" % "logback-classic" % "1.1.2"
   )
 }
